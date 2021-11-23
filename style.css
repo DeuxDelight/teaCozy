@@ -5,16 +5,12 @@ html{
     background-color: black;
     opacity: 0.9;
 }
-header{
-    display: inline-block;
-        
-    
+
+
+nav{
+    position: fixed;
 }
-li{
-    display: inline-block;
-}
-#logo{
-    display:inline-block;
-    height: 50px;
-    padding-left: 10px;
+
+ul{
+    justify-content: flex-end;
 }
