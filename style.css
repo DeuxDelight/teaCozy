@@ -4,13 +4,43 @@ html{
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    display: block;
 }
 
-
+/* navigation styles */
 nav{
+    width: 100%;
     position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    margin-top: 0px;
+    height: 69px;
+}
+.logo{
+    height: 50px;
+    padding-left: 10px;
 }
 
-ul{
-    justify-content: flex-end;
+.navigation{
+    float: right;
+    padding: 15px;
+    top: 0;
+}
+
+
+
+/* our mission styles */
+.mission{
+    display: flex;
+    justify-content: center;
+    background-image: url(./resources/images/img-mission-background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+    /* margin-top: 69px; */
+
 }
