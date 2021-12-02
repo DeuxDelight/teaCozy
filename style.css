@@ -17,10 +17,11 @@ header{
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    /* top: 0px; */
+    top: 0px;
     height: 69px;
     width: 100%;
     background-color: black;
+    z-index: 1;
 }
 
 .logo{
@@ -53,9 +54,11 @@ header{
 
 #spacer{
     position: relative;
-    top: -69px;
+    height: 69px;
 }
 
+
+/* Our Mission sections styles */
 .mission{
     display: flex;
     justify-content: center;
@@ -81,3 +84,50 @@ header{
     text-align: center;
     margin-top: 0%;
 }
+
+
+/* tea of the month styles */
+
+.teaMonth{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    flex-direction: column;
+}
+
+.teaIntro h1{
+    text-align: center;
+}
+
+.teaIntro p{
+    text-align: center;
+}
+
+.differentTeas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 70%;
+}
+
+.teaImage{
+    height: 200px;
+    width: 300px;
+}
+
+.teaName{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tea{
+    padding-right: 25px;
+}
+
+
+
+
+
