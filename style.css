@@ -96,6 +96,7 @@ header{
     margin-right: auto;
     margin-top: 75px;
     flex-direction: column;
+    color: #716d69;
 }
 
 .teaIntro h1{
@@ -127,7 +128,62 @@ header{
     padding-right: 25px;
 }
 
+/* Location styles */
 
+.locations{
+    height: 575px;
+    width: 1200px;
+    background-image: url(./resources/images/img-locations-background.jpg);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 60%;
+}
 
+.locations h1{
+    color: #716d69;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
 
+.location{
+    display: flex;
+    justify-content: center;
+    
+    
+}
 
+.locationInfo{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer styles */
+.footer{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #716d69;
+}
+
+.footer p{
+    margin-top: 0%;
+}
+.copyright{
+    margin-left: 20px;
+    color: #716d69;
+}
